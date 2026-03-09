@@ -9,7 +9,7 @@ $db_name = 'erd exercise';
 //Creating am 'object' makes our code more organised
 
 $db = new PDO(
-    'mysql:host=127.0.0.1;dbname'.$db_name,';charset=ut8',
+    'mysql:host=localhost;dbname='.$db_name,';charset=utf8',
     $db_user,
     $db_password
 );
