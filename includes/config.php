@@ -1,7 +1,7 @@
 <?php
 
 $db_user = 'root';
-$db_password = 'root';
+$db_password = '';
 $db_name = 'erd exercise';
 
 //PDO = PHP Data Objects
